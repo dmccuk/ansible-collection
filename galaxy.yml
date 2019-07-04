@@ -6,7 +6,7 @@ namespace: dynatrace
 
 
 # the designation of this specific collection
-name: dynatrace_innovation_lab
+name: dynatrace_comment_on_problem
 
 
 # semantic versioning compliant version designation
@@ -19,7 +19,7 @@ readme: README.md
 # a list of the collection's content authors
 # Ex: 'Full Name <email> (http://site) @nicks:irc/im/site#channel'
 authors:
-- xxxx xxx <xx@exammple.com>
+- Juergen Etzlstorfer <juergen.etzlstorfer@dyntrace.com>
 
 
 ### OPTIONAL but strongly advised
@@ -32,7 +32,7 @@ description: Demo for dynatrace to test out collections.
 # identifiers, see https://spdx.org/licenses/. Could also set `license_file`
 # instead to point to the file the specifies the license in the collection
 # directory.
-license: MIT
+license: Apache2
 
 
 # list of keywords you want to associate the collection
@@ -50,7 +50,7 @@ dependencies: {}
 ### URLs
 
 # url of originating SCM repository
-repository: 
+repository: https://github.com/dynatrace-innovationlab/ansible-collection
 
 
 # url to online docs
@@ -58,7 +58,7 @@ documentation: http://docs.example.com
 
 
 # homepage of the collection/project
-homepage: http://example.com
+homepage: https://www.dynatrace.com
 
 
 # issue tracker url
