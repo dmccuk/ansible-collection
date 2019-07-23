@@ -54,7 +54,7 @@ repository: https://github.com/dynatrace-innovationlab/ansible-collection
 
 
 # url to online docs
-documentation: http://docs.example.com
+documentation: https://github.com/dynatrace-innovationlab/ansible-collection
 
 
 # homepage of the collection/project
@@ -62,4 +62,4 @@ homepage: https://www.dynatrace.com
 
 
 # issue tracker url
-issues: http://example.com/issue/tracker
+issues: https://github.com/dynatrace-innovationlab/ansible-collection
