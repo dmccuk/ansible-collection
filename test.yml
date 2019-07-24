@@ -1,14 +1,14 @@
 ---
 - hosts: localhost
   collections:
-    - anshulbehl.dynatrace_innovation_lab
+    - dynatrace_innovationlab.collection
   vars:
     tenant_url: 'https://XXXXXX.live.dynatrace.com'
     api_token: 'XXXXX'
 
   tasks:
   - include_role:
-      name: ansible_dynatrace_problem_comment
+      name: dynatrace_problem_comment
     vars:
       problem_id: 'XXXX'
       comment: 'Hello from Ansible'
