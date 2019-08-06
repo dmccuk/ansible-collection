@@ -1,0 +1,9 @@
+---
+# defaults file for dynatrace-modules
+
+deploymentName: 'Default Deployment'
+deploymentProject: 'Default Project'
+deploymentVersion: '0.1.0'
+source: 'Ansible'
+remedationAction: ''
+customProperties: ''
