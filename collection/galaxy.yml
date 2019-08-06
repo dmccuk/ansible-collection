@@ -2,15 +2,15 @@
 
 # this can be a company/brand/organization or product namespace
 # under which all content lives
-namespace: dynatrace
+namespace: dynatrace_innovationlab
 
 
 # the designation of this specific collection
-name: dynatrace_comment_on_problem
+name: dynatrace_collection
 
 
 # semantic versioning compliant version designation
-version: 1.0.0
+version: 1.0.2
 
 # the filename for the readme file which can be either markdown (.md)
 readme: README.md
@@ -25,19 +25,22 @@ authors:
 ### OPTIONAL but strongly advised
 
 # short summary of the collection
-description: Demo for dynatrace to test out collections.
+description: Collection comprising capabilities to send comments to a problem ticket and send custom deployment information.
 
 
 # Either a single valid SPDX license identifier or a list of valid SPDX license
 # identifiers, see https://spdx.org/licenses/. Could also set `license_file`
 # instead to point to the file the specifies the license in the collection
 # directory.
-license: Apache2
+license: Apache-2.0
 
 
 # list of keywords you want to associate the collection
 # with for indexing/search systems
-tags: []
+tags: 
+  - dynatrace
+  - monitoring
+  - deployment
 
 
 # A dict of dependencies. A dependency is another collection
