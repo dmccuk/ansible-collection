@@ -10,7 +10,7 @@ name: dynatrace_collection
 
 
 # semantic versioning compliant version designation
-version: 1.0.2
+version: 1.0.4
 
 # the filename for the readme file which can be either markdown (.md)
 readme: README.md
