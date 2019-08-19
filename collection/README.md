@@ -47,6 +47,7 @@ tasks:
 
 The result might look similar as can be seen in the right bottom corner of the screenshot:
 
+<!-- please note this has to be a absolute URL since otherwise it will not show up on galaxy.ansible.com -->
 ![custom deployment|](https://raw.githubusercontent.com/dynatrace-innovationlab/ansible-collection/master/collection/assets/custom-deployment.png)
 
 ### Comment on a Dynatrace problem ticket
@@ -75,4 +76,5 @@ If Ansible is taking care of taking counter actions to any problem Dynatrace det
 
 The result might will look similar to the screenshot:
 
+<!-- please note this has to be a absolute URL since otherwise it will not show up on galaxy.ansible.com -->
 ![problem comment](https://raw.githubusercontent.com/dynatrace-innovationlab/ansible-collection/master/collection/assets/comment.png)
