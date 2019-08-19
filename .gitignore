@@ -1,2 +1,3 @@
 collection/test_*.yml
 dynatrace*.tar.gz
+test_*.yml
