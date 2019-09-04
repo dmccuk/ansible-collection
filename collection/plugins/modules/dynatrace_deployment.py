@@ -16,9 +16,9 @@ ANSIBLE_METADATA = {
 DOCUMENTATION = '''
 ---
 module: dynatrace_deployment
-version_added: "1.0"
+version_added: "2.3"
 author: "Juergen Etzlstorfer (@jetzlstorfer)"
-short_description: Notify Dynatrace about new deployments
+short_description: Notify Dynatrace about new deployments of a service
 description:
    - Push deployment information to Dynatrace
 options:
@@ -26,30 +26,47 @@ options:
     description:
       - Tenant URL for the Dynatrace Tenant
     required: true
+    type: str
   api_token:
     description:
       - Dynatrace API Token
     required: true
+    type: str
   attach_rules:
     description:
-      - Complex structure that contains rules which monitored entities the event is to be attached to.
+      - Structure that contains rules which monitored entities the event is to be attached to.
     required: true
-  entity_ids:
-    description:
-      - Entity Ids of the affected entities for this deployment
-    required: false
+    type: str
   deploymentName:
+    description:
+      - Name of the deployment
     required: true
+    type: str
   deploymentProject:
+    description:
+      - Name of the project of the deployment
     required: false
+    type: str
   deploymentVersion:
     description:
       - A deployment version number
     required: false
+    type: str
+  customProperties:
+    description:
+      - Custom properties to attach to your deployment (dict)
+    required: false
+    type: str
+  source:
+    description:
+      - Source of the deployment information (default Ansible)
+    required: false
+    type: str
   remediationAction:
     description:
       - A remediation action in case Dynatrace detects issues related to this deployment
     required: false
+    type: str
 requirements: []
 '''
 

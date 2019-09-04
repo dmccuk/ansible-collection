@@ -16,7 +16,7 @@ ANSIBLE_METADATA = {'metadata_version': '1.0',
 DOCUMENTATION = '''
 ---
 module: dynatrace_comment
-version_added: "X.X"
+version_added: "2.3"
 author: "Juergen Etzlstorfer (@jetzlstorfer)"
 short_description: Comment on Dynatrace detected problems
 description:
@@ -26,26 +26,32 @@ options:
     description:
       - Tenant URL for the Dynatrace Tenant
     required: true
+    type: str
   api_token:
     description:
       - Dynatrace API Token
     required: true
+    type: str
   problem_id:
     description:
       - Dynatrace Problem ID to add the comment to
     required: true
+    type: str
   comment:
     description:
       - Content of comment to push to Dynatrace
     required: true
+    type: str
   user:
     description:
       - User that pushes the comments
     required: true
+    type: str
   context:
     description:
-      - Source where the comment originates from (default: Ansible)
+      - Source where the comment originates from (default Ansible)
     required: false
+    type: str
 requirements: []
 '''
 
